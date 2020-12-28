@@ -19,14 +19,14 @@
 body{ 
     text-align: center; 
     background: red; 
-font-family: sans-serif; 
-font-weight: 100; 
+    font-family: sans-serif; 
+    font-weight: 100; 
 } 
 h1{ 
-color: whitesmoke; 
-font-weight: 100; 
-font-size: 40px; 
-margin: 40px 0px 20px; 
+    color: whitesmoke; 
+    font-weight: 100; 
+    font-size: 40px; 
+    margin: 40px 0px 20px; 
 } 
 #clockdiv{ 
     font-family: sans-serif; 
