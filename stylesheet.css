@@ -24,12 +24,6 @@
     transform: translateY(-50%);
 }
 
-body{ 
-    text-align: center; 
-    background: red; 
-    font-family: sans-serif; 
-    font-weight: 100; 
-} 
 h1{ 
     color: whitesmoke; 
     font-weight: 100; 
@@ -60,3 +54,22 @@ h1{
     padding-top: 5px; 
     font-size: 16px; 
 } 
+.rounddiv{
+    border-radius: 10px / 10px;
+    padding: 10px;
+    width: 95%;
+    
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+}
