@@ -7,6 +7,8 @@
 
 }
 
+
+
 #clockdiv{ 
     font-family: sans-serif; 
     color: black; 
@@ -26,11 +28,33 @@
     border-radius: 3px; 
     background:lightgoldenrodyellow; 
     display: inline-block; 
-} 
+}
+#underconstr {
+    background-image: linear-gradient(red, yellow);
+  }
+
 .smalltext{ 
     padding-top: 5px; 
     font-size: 16px; 
 } 
-#underconstr {
-    background-image: linear-gradient(to bottom right, red, yellow);
+.rounddiv{
+    border-radius: 10px / 10px;
+    padding: 10px;
+    width: 95%;
+    
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+
+footer {
+    margin-top: auto;
+    flex: 0 0 50px;
+
 }
