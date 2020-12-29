@@ -18,16 +18,19 @@
 #clockdiv > div{ 
     padding: 10px; 
     border-radius: 3px; 
-    background: yellow; 
+    background:yellow; 
     display: inline-block; 
 } 
 #clockdiv div > span{ 
     padding: 15px; 
     border-radius: 3px; 
-    background: lightgoldenrodyellow; 
+    background:lightgoldenrodyellow; 
     display: inline-block; 
 } 
 .smalltext{ 
     padding-top: 5px; 
     font-size: 16px; 
+} 
+#underconstr {
+    background-image: linear-gradient(to bottom right, red, yellow);
 }
