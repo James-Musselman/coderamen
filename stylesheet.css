@@ -7,29 +7,6 @@
 
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-.vertcenter {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-h1{ 
-    color: whitesmoke; 
-    font-weight: 100; 
-    font-size: 40px; 
-    margin: 40px 0px 20px; 
-} 
 #clockdiv{ 
     font-family: sans-serif; 
     color: black; 
@@ -47,37 +24,9 @@ h1{
 #clockdiv div > span{ 
     padding: 15px; 
     border-radius: 3px; 
-    background: grey; 
+    background: lightgoldenrodyellow; 
     display: inline-block; 
 } 
 .smalltext{ 
     padding-top: 5px; 
     font-size: 16px; 
-} 
-.rounddiv{
-    border-radius: 10px / 10px;
-    padding: 10px;
-    width: 95%;
-    
-}
-html,
-body {
-  height: 100%;
-  
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
-}
-
-.content {
-  flex-grow: 1;
-}
-footer {
-    margin-top: auto;
-    flex: 0 0 50px;/*or just height:50px;*/
-
-}
